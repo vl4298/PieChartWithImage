@@ -13,6 +13,7 @@
 		CD2FBFC01D967D3200A2A04F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2FBFBF1D967D3200A2A04F /* Assets.xcassets */; };
 		CD2FBFC31D967D3200A2A04F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2FBFC11D967D3200A2A04F /* LaunchScreen.storyboard */; };
 		CD2FBFCB1D967DBE00A2A04F /* ImageProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FBFCA1D967DBE00A2A04F /* ImageProcess.swift */; };
+		CD2FBFCD1D9782F500A2A04F /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FBFCC1D9782F500A2A04F /* PieChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CD2FBFC21D967D3200A2A04F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD2FBFC41D967D3200A2A04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD2FBFCA1D967DBE00A2A04F /* ImageProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProcess.swift; sourceTree = "<group>"; };
+		CD2FBFCC1D9782F500A2A04F /* PieChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				CD2FBFC11D967D3200A2A04F /* LaunchScreen.storyboard */,
 				CD2FBFC41D967D3200A2A04F /* Info.plist */,
 				CD2FBFCA1D967DBE00A2A04F /* ImageProcess.swift */,
+				CD2FBFCC1D9782F500A2A04F /* PieChartView.swift */,
 			);
 			path = ImageChart;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD2FBFCD1D9782F500A2A04F /* PieChartView.swift in Sources */,
 				CD2FBFCB1D967DBE00A2A04F /* ImageProcess.swift in Sources */,
 				CD2FBFBB1D967D3200A2A04F /* ViewController.swift in Sources */,
 				CD2FBFB91D967D3200A2A04F /* AppDelegate.swift in Sources */,
@@ -304,6 +308,7 @@
 				CD2FBFC91D967D3200A2A04F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -19,9 +19,9 @@ class ImageProcess {
   fileprivate static func drawImage1(_ name: String = "superman") -> UIImage {
     let imageRect = CGRect(x: 0, y: 0, width: 600, height: 600)
     UIGraphicsBeginImageContext(imageRect.size)
-    let context = UIGraphicsGetCurrentContext()!
-    context.translateBy(x: 0, y: 600.0)
-    context.scaleBy(x: 1.0, y: -1.0)
+//    let context = UIGraphicsGetCurrentContext()!
+//    context.translateBy(x: 0, y: 600.0)
+//    context.scaleBy(x: 1.0, y: -1.0)
     
     let image = UIImage(named: name)!
     
